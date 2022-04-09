@@ -2,48 +2,62 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Nick's personal site</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <title>My css site</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
 </head>
 <body>
-<table cellspacing="20px">
-    <tr>
-        <td>
-            <img src="images/me.jpg" width="100">
-        </td>
-        <td>
-            <h1>Nick</h1>
-            <p><em><strong>Developer</strong></em></p>
-            <p>I am homebrew developer</p>
-        </td>
-    </tr>
-</table>
-<hr/>
-<h3>Books and teaching</h3>
-<ul>
-    <li>Fauler "Refactoring"</li>
-    <li>Bulgakov "Master and Margarite"</li>
-</ul>
-<hr/>
-<h3>Work experience</h3>
-<table>
-    <tr>
-        <td>1997-2007</td>
-        <td>School</td>
-    </tr>
-    <tr>
-        <td>2007-2012</td>
-        <td>University</td>
-    </tr>
-    <tr>
-        <td>2012-...</td>
-        <td>Business</td>
-    </tr>
-</table>
-<hr>
+<div class="top-container">
+    <img class="top-cloud" src="images/cloud.png" alt="cloud-image">
+    <h1>I'm Nick</h1>
+    <h2 class="subtitle">a d<span class="evil">evil</span>oper(mostly c++)</h2>
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-image">
+    <img src="images/mountain.png" alt="mountain-image">
+</div>
+<div class="middle-container">
+    <div class="profile">
+        <img class="myself-image" src="images/Nick.jpg" alt="myself">
+        <h2>Hello.</h2>
+        <p class="intro">I'm Nick,C++ developer from Russia;)</p>
+    </div>
+    <hr>
+    <div class="skills">
+        <h2>My Skills.</h2>
+        <div class="skill-row">
+            <img class="skills-image-left" src="images/c-.png" alt="cpp-image">
+            <h3>First of all,i'm C++ developer with more than 10 years experience</h3>
+            <p>Starting from university,I fell in love with c++,it's capabilities and brain-training difficulties</p>
+            <p>For over 5 years i developed deep-packet inspection software for real-time usage.Now system programming for windows is my primary work.</p>
+        </div>
+        <div class="skill-row">
+            <img class="skills-image-right" src="images/carpentry.png" alt="carpentry-image">
+            <h3>Carpentry</h3>
+            <p>Not so far,I liked carpentry.Crafting furniture,garden accessories,building my own wooden house) When my work as software deleloper will come to end,i'd like to start carpentry business</p>
+        </div>
+        <div class="skill-row">
+            <img class="skills-image-left" src="images/offroad.png" alt="carpentry-image">
+            <h3>Offroad and travelling</h3>
+            <p>Offroad.Mud.Nothing else to say.</p>
+        </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>If you like c++ or carpentry as much as i do</h3>
+        <p class="contact-message">Contact me if you want</p>
+        <a class="contact-me-button" href="mailto:ukhegg@gmail.com">CONTACT ME</a>
+    </div>
+</div>
 
-<a href="hobbies.html">My hobbies</a>
-<a href="contact_me.html">Contact me</a>
+
+<div class="bottom-container">
+    <a class="footer-link" href="https://vk.com/ukhegg">VK</a>
+    <a class="footer-link" href="https://www.instagram.com/?hl=ru/ukhegg">Instagram</a>
+    <p class="copyright">© 2022 Nick Zeliukin.</p>
+</div>
 
 </body>
 </html>
