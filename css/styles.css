@@ -1,0 +1,161 @@
+/*********************************  ELEMENT BASED STYLES  ************************************ */
+a{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #eaf6f6;
+}
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514e
+}
+
+
+h1 {
+    margin: 50px auto 0 auto;
+    font-size: 6em;
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+    line-height: 2;
+}
+
+h2{
+    font-size: 2.5em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    color: #66BFBF;
+}
+
+h3{
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+hr{
+    border: dotted #6c4343 10px;
+    border-bottom: none;
+    margin: 100px auto;
+    width: 100px;
+}
+p{
+    line-height: 2;
+}
+
+
+/*********************************  CLASS BASED STYLES  ************************************ */
+
+.evil {
+    text-decoration: underline;
+}
+
+.intro{
+    width: 30%;
+    margin: 0 auto 0 auto;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.bottom-container {
+    background-color: #6c4343;
+    padding: 50px 0 20px
+}
+
+.contact-message{
+width: 30%;
+    margin: 40px auto 60px;
+}
+.contact-me-button {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.contact-me-button:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
+
+.copyright{
+    color: #EAF6F6;
+    font-size: 0.75em;
+    padding: 20px 0;
+}
+
+.footer-link{
+    color: #11999E;
+    margin: 20px 50px;
+}
+
+.middle-container {
+    margin: 100px 0 20px 0;
+}
+
+.myself-image
+{
+    height:300px;
+    round-clip: 100%;
+    border-radius: 100%;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.skills-image-left{
+    width: 10%;
+    float: left;
+    margin-right: 30px;
+}
+
+.skills-image-right{
+    width: 10%;
+    float: right;
+    left: 30px;
+}
+
+.theme-colors {
+    color: #364968;
+    color: #fddf97;
+    color: #e09664;
+    color: #6c4343;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+.top-container {
+    background-color: #364968;
+
+    padding-top: 100px;
+}
+
+/*********************************  ID BASED STYLES  ************************************ */
